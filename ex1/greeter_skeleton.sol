@@ -4,6 +4,7 @@ pragma solidity ^0.4.13;
 contract greeter {
 	/* Add one variable to hold our greeting */
 	string greeting;
+	/* or string greeting = 'Hello, world!' */
 
 	function greeter(string _greeting) public {
 		/* Write one line of code for the contract to set our greeting */
@@ -14,4 +15,5 @@ contract greeter {
 		/* Write one line of code to allow the contract to return our greeting */
 		return greeting;
 	}
+	function() payable { }
 }
